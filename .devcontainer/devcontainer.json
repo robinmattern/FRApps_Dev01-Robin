@@ -24,7 +24,8 @@
 				"yandeu.five-server",
 				"mhutchie.git-graph",
 				"esbenp.prettier-vscode",
-				"mtxr.sqltools"
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-mysql"
 			]
 	 	}
 	  }

@@ -16,9 +16,10 @@
                 "server": "45.32.219.12",
                 "port": 3306,
                 "driver": "MySQL",
-                "name": "et217p_World",
-                "database": "world",
-                "username": "nimdas"
+                "username": "nimdas",
+                "password": "FormR!1234",
+                "name": "et217d_World",
+                "database": "world"
             }
         ]
     },

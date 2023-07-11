@@ -1,8 +1,9 @@
 #!/bin/bash 
 
- cp .devcontainer/.profile.dev  /home/node/.profile
+  cp .devcontainer/.profile.dev  /home/node/.profile
+  source /home/node/.profile
 
- cd client1 
- npm install 
+  cd client1 
+  npm install 
  
- mysql.server start
+  mysql.server start
