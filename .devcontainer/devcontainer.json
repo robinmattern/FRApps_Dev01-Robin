@@ -12,12 +12,11 @@
         }
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	 , "forwardPorts": [ 3306, 3306, 3000, 3002 ],
+	 , "forwardPorts": [ 3306, 3306, 3000, 3002 ]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	 , "postCreateCommand": [ "cd client1 && npm install"
-                            , "mysql.server start"
-							]
+    , "postCreateCommand": "cd client1 && npm install && mysql.server start"
+    
 	, "customizations": {
 	  	"vscode": {
 	  		"extensions": [
