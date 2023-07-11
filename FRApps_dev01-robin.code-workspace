@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "liveServer.settings.port": 5505,
+        "sqltools.connections": [
+            {
+                "mysqlOptions": {
+                    "authProtocol": "default",
+                    "enableSsl": "Disabled"
+                },
+                "previewLimit": 50,
+                "server": "45.32.219.12",
+                "port": 3306,
+                "driver": "MySQL",
+                "name": "et217p_World",
+                "database": "world",
+                "username": "nimdas"
+            }
+        ]
+    },
+}
