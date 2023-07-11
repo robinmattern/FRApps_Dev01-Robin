@@ -16,7 +16,8 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
 //  res.send('Hello remote world index.mjs from VSCode!\n');
-    res.send('Hello remote world in index.mjs from TextPad!\n');
+//  res.send('Hello remote world in index.mjs from TextPad!\n');
+    res.sendFile('/workspaces/FRApps_dev01-robin/client1/c11_my-html-custom-app/index.html');
 
 });
 
